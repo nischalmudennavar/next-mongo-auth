@@ -1,5 +1,5 @@
 "use client";
-import {  useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { register } from "@/actions/register";
@@ -67,7 +67,7 @@ export default function Register() {
         </button>
 
         <Link
-          href="/login"
+          href="/auth/login"
           className="text-sm text-[#888] transition duration-150 ease hover:text-black"
         >
           Already have an account?
